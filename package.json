@@ -1,0 +1,26 @@
+{
+  "name": "tagu",
+  "version": "0.0.1",
+  "description": "Another tag-based image storage system.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r ts-node/register src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agapurnis/tagu.git"
+  },
+  "author": "Agapurnis",
+  "bugs": {
+    "url": "https://github.com/Agapurnis/tagu/issues"
+  },
+  "homepage": "https://github.com/Agapurnis/tagu#readme",
+  "dependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2"
+  }
+}
